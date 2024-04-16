@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Me</title>
+  <style>
+    /* Add your CSS styling here */
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 20px;
+    }
+    h2 {
+      margin-top: 0;
+    }
+    .contact-info {
+      margin-bottom: 20px;
+    }
+    /* Add more styling as needed */
+  </style>
+</head>
+<body>
+  <h1>Contact Me</h1>
+
+  <div class="contact-info">
+    <h2>Contact Details</h2>
+    <p>Email: your.email@example.com</p>
+    <p>Phone: (123) 456-7890</p>
+    <!-- Add more contact details as needed -->
+  </div>
+
+  <div class="social-media">
+    <h2>Social Media Links</h2>
+    <ul>
+      <li><a href="https://twitter.com/example" target="_blank">Twitter</a></li>
+      <li><a href="https://www.linkedin.com/in/example" target="_blank">LinkedIn</a></li>
+      <!-- Add more social media links as needed -->
+    </ul>
+  </div>
+
+  <div class="contact-form">
+    <h2>Contact Form</h2>
+    <form action="submit_contact_form.php" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br>
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="4" required></textarea><br>
+      <button type="submit">Send</button>
+    </form>
+  </div>
+
+</body>
+</html>
